@@ -1,0 +1,25 @@
+#title-main {
+    font-size: 7em;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(129, 164, 149);
+    animation: loopbounce 3s ease-in-out infinite alternate;
+}
+
+#subtitle {
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+@keyframes loopbounce{
+    0% {
+        transform: translateY(-12px);
+    }
+    50% {
+        transform: translateY(12px);
+    }
+    100% {
+        transform: translateY(-12px);
+    }
+    }
