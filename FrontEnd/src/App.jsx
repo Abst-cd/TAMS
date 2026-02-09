@@ -8,6 +8,7 @@ import VantaBg from './Components/VantaBg'
 function App() {
   return (
     <div className="App">
+      
       <VantaBg />
       <TitleMain />
       <RegisterUser />
