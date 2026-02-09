@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './RegisterUser.css';
-import Login from './Login'; // Asegúrate que el nombre del componente sea correcto
+import Login from './Login'; 
+
 
 function RegisterUser() {
   const [isRegistered, setIsRegistered] = useState(false);
@@ -37,7 +38,7 @@ function RegisterUser() {
   return (
     <div className="RegisteringUser">
       <h1 id="register-title">Register</h1>
-      <div id="register-container">
+      <div id="register-container" className="registerbox">
         <form onSubmit={handleRegister}>
           <input type="email" id="email-input" name="email" placeholder="Email" required />
           <input type="password" id="password-input" name="password" placeholder="Password" required />

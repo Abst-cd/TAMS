@@ -32,10 +32,12 @@ function Login({ email, onBack }) {
         <div id="Login-container">
             <h1 id="login-title">Login</h1>
             <form onSubmit={handleLogin}>
+                <div className="loginbox">
                 <input type="text" id="username" placeholder="email" name="username" required />
                 <input type="password" id="password" placeholder="password" name="password" required />
                 <button type="submit" id="login-button">Login</button>
                 <button type="button" id="go-back" onClick={onBack}>Back</button>
+                </div>
             </form>
         </div>
     );

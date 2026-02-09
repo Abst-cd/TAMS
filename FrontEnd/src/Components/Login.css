@@ -12,6 +12,23 @@
 
 }
 
+.loginbox {
+    border: 1px solid #2e2e2e;       
+    border-radius: 8px;           
+    padding: 20px;               
+    max-width: 400px;             
+    margin: 0 auto;               
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: #6d6d6d; 
+}
+
+.loginbox input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+}
+
 #login-button, #go-back {
     padding: 10px 20px;
     margin: 5px;
@@ -24,9 +41,13 @@
 
 }
 
-#login-button:hover, #go-back:hover {
-
+#login-button:hover {
+    background-color: #4fdf54;
     padding: 10px 30px;
+}
+
+#go-back:hover {
+    background-color: red;
 }
 
 
