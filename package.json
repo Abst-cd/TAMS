@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "particles-bg": "^2.5.5",
-    "react-snowfall": "^2.4.0",
-    "three": "^0.182.0",
-    "vanta": "^0.5.24"
-  }
-}
